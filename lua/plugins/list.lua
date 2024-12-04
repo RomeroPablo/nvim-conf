@@ -234,20 +234,6 @@ return {
         end,
     },
 
-    {
-        "jackMort/ChatGPT.nvim",
-        dependencies = {
-            "MunifTanjim/nui.nvim",
-            "nvim-lua/plenary.nvim",
-            "nvim-telescope/telescope.nvim",
-        },
-        config = function()
-            require("chatgpt").setup({
-                api_key_cmd = "cat /home/pablo/.openai_api_key"
-            })
-        end,
-    },
-
     -- markdown preview
     {
         "iamcco/markdown-preview.nvim",

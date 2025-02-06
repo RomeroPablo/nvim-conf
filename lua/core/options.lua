@@ -21,5 +21,5 @@ opt.termguicolors = true   -- Enable 24-bit RGB colors
 opt.signcolumn = "yes"     -- Always show the sign column to avoid shifting text
 
 -- Performance
-opt.updatetime = 100       -- Faster completion and updates
+opt.updatetime = 10       -- Faster completion and updates
 opt.timeoutlen = 500       -- Shorter timeout for mapped key sequences

@@ -7,10 +7,11 @@ return {
     },
 
     {
-        "morhetz/gruvbox",
+        "sainnhe/everforest",
         lazy = false,
         config = function()
-            vim.cmd("colorscheme gruvbox")
+            vim.o.background = "dark"
+            vim.cmd("colorscheme everforest")
         end
     },
 
